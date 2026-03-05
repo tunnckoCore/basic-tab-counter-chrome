@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Counter",
+  "version": "1.0",
+  "description": "A simple Chrome extension that counts the number of open tabs and displays it on the extension icon.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_icon": "assets/icon.png"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  }
+}
