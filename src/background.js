@@ -2,7 +2,9 @@ const updateCount = () => {
   chrome.tabs.query({}, (tabs) => {
     chrome.action.setBadgeText({ text: tabs.length.toString() });
     chrome.action.setBadgeBackgroundColor({ color: "#4688F1" });
-    chrome.action.setBadgeTextColor({ color: "#FFFFFF" });
+    if (chrome.action.setBadgeTextColor) {
+      chrome.action.setBadgeTextColor({ color: "#FFFFFF" });
+    }
   });
 };
 
