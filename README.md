@@ -1,11 +1,12 @@
-# Tab Counter
+# Basic Tab Counter
 
-A simple Google Chrome extension that counts the total number of open tabs and displays the count directly on the extension icon as a badge.
+A simple Chrome/Chromium/Brave/Helium extension that counts the total number of open tabs and displays the count directly on the extension icon as a badge.
 
 ## Features
 - **Real-time Updates**: Automatically updates the tab count when you open, close, or move tabs.
 - **Lightweight**: Uses a minimal background service worker and only requires the `tabs` permission.
 - **Unobtrusive**: Just a simple badge on your toolbar—no popups or extra menus required.
+- **Minimalist:** Just 15 lines of code.
 
 ## Installation
 Currently, the extension is installed via Developer Mode in Chrome.
